@@ -82,7 +82,9 @@ display: inline-block;
 width: 300px;
 }
 
+
 ul {
+background-color: white;
 width: 95%;
 margin: auto;
 padding: 0;
@@ -95,4 +97,9 @@ border-style: solid none solid none;
 li {
 padding: 5px;
 display: inline-block;
+}
+
+.header {
+position: sticky;
+top: 0;
 }
